@@ -1,0 +1,28 @@
+.paragraph {
+  border: 1px solid black;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  background-color: green;
+}
+
+.info {
+  background-color: orange;
+}
+
+.warning {
+  background-color: aqua;
+}
+
+.verse {
+  padding: 29px;
+}
+
+.not-verse {
+  padding: 191px;
+}
+/*# sourceMappingURL=functions.css.map */

@@ -1,0 +1,12 @@
+@mixin p-border($color: magenta) {
+    border: 1px dashed black;
+    box-shadow: 2px 2px 2px 2px $color;
+}
+
+.paragraph {
+    @include p-border($color: red);
+}
+
+.article-footer {
+    @include p-border($color: blue);
+}

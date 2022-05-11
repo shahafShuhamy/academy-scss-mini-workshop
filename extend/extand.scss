@@ -1,0 +1,12 @@
+%text-to-right {
+    display: flex;
+    text-align: right;
+}
+
+.paragraph {
+    @extend %text-to-right;
+}
+
+.footer-footer {
+    @extend %text-to-right;
+}

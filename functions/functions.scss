@@ -1,0 +1,43 @@
+%border {
+    border: 1px solid black;
+}
+
+.paragraph {
+    @extend %border;
+}
+
+@function padding($times) {
+    $result: 1;
+    @for $var from 1 to $times {
+        $result: $result + $var;
+    }
+    @return $result;
+}
+
+@mixin bg-color($color: white) {
+     background-color: $color;
+}
+
+.error {
+    @include bg-color(red);
+}
+
+.success {
+    @include bg-color(green);
+}
+
+.info {
+    @include bg-color(orange);
+}
+
+.warning {
+    @include bg-color(aqua);
+}
+
+.verse {
+    padding: padding(8) * 1px;
+}
+
+.not-verse {
+    padding: padding(20) * 1px;
+}

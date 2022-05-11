@@ -1,0 +1,12 @@
+.paragraph {
+  border: 1px dashed black;
+  -webkit-box-shadow: 2px 2px 2px 2px red;
+          box-shadow: 2px 2px 2px 2px red;
+}
+
+.article-footer {
+  border: 1px dashed black;
+  -webkit-box-shadow: 2px 2px 2px 2px blue;
+          box-shadow: 2px 2px 2px 2px blue;
+}
+/*# sourceMappingURL=mixins.css.map */

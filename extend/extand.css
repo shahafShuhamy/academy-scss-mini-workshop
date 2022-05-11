@@ -1,0 +1,7 @@
+.paragraph, .footer-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+}
+/*# sourceMappingURL=extand.css.map */

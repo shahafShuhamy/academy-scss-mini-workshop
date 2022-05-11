@@ -1,0 +1,9 @@
+$verse-color: red;
+$not-verse-color: blue;
+.verse {
+    color: $verse-color;
+}
+
+.not-verse {
+    color: $not-verse-color;
+}
